@@ -1,19 +1,19 @@
 class Capm < Formula
   desc "Manage coding-agent API provider profiles"
   homepage "https://github.com/turinmouse/coding-agent-profile-manager"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/turinmouse/coding-agent-profile-manager/releases/download/v0.1.2/capm-aarch64-apple-darwin.tar.gz"
-      sha256 "cc90c206a69240202cb08b63232aa6d42f638916dcc26d94da4cc1914a71d549"
+      url "https://github.com/turinmouse/coding-agent-profile-manager/releases/download/v0.1.3/capm-aarch64-apple-darwin.tar.gz"
+      sha256 "14e2af41090214fbbafb8e396085da823f4c67140dcdc3e19b0ade945b7de8aa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/turinmouse/coding-agent-profile-manager/releases/download/v0.1.2/capm-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "faa8e30134819678cccdfe9bf6837fdb4dabc105548b38f15c4155cd3928a643"
+      url "https://github.com/turinmouse/coding-agent-profile-manager/releases/download/v0.1.3/capm-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b656d05d43459f7a8df1445bc17fbcda57cb4c8f64ee2b11a466fdf827cae52b"
     end
   end
 
