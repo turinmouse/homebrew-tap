@@ -1,19 +1,19 @@
 class Lazycc < Formula
   desc "Manage coding-agent API provider profiles"
   homepage "https://github.com/turinmouse/lazycc"
-  version "0.2.6"
+  version "0.2.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/turinmouse/lazycc/releases/download/v0.2.6/lazycc-aarch64-apple-darwin.tar.gz"
-      sha256 "c2c9ed6e19ec21a2e19683c0c6eb26d363f2ab72f27697900ad598e85640ad10"
+      url "https://github.com/turinmouse/lazycc/releases/download/v0.2.7/lazycc-aarch64-apple-darwin.tar.gz"
+      sha256 "39e559936996754ad1249f147fe6dceef14555d37dfbaaad94e9e552b76ba997"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/turinmouse/lazycc/releases/download/v0.2.6/lazycc-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "775c85f665deb775925ecd951ec479eada31690fa8b50b5f17e2325d44945f2d"
+      url "https://github.com/turinmouse/lazycc/releases/download/v0.2.7/lazycc-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4a044c2300fede9362455b2a16cdf4c834a9e690912d14b2406637600b6ae8ef"
     end
   end
 
